@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btn_Btn10Activity_error"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="网络错误"/>
+
+    <Button
+        android:id="@+id/btn_Btn10Activity_nodata"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/btn_Btn10Activity_error"
+        android:text="无数据"/>
+
+    <Button
+        android:id="@+id/btn_Btn10Activity_show"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/btn_Btn10Activity_nodata"
+        android:text="数据清空"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rev_Btn10Activity_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_Btn10Activity_error"/>
+</RelativeLayout>

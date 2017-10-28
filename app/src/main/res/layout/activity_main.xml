@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ubpost.baserecyclerviewadapterhelperdemo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_main_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="基础使用：数据的适配"/>
+
+    <Button
+        android:id="@+id/btn_main_btn02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Item的点击事件"/>
+
+    <Button
+        android:id="@+id/btn_main_btn03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Item中子控件的点击事件"/>
+
+    <Button
+        android:id="@+id/btn_main_btn04"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="列表加载动画"/>
+
+    <Button
+        android:id="@+id/btn_main_btn05"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="添加/删除头部和尾部"/>
+
+    <Button
+        android:id="@+id/btn_main_btn06"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="上拉加载/下拉刷新"/>
+
+    <Button
+        android:id="@+id/btn_main_btn07"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="上拉加载更多/下拉加载新数据"/>
+
+    <Button
+        android:id="@+id/btn_main_btn08"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="分组布局"/>
+
+    <Button
+        android:id="@+id/btn_main_btn09"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="多布局"/>
+
+    <Button
+        android:id="@+id/btn_main_btn10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="设置空布局"/>
+
+    <Button
+        android:id="@+id/btn_main_btn11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="拖拽、滑动删除"/>
+
+    <Button
+        android:id="@+id/btn_main_btn12"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="树形列表"/>
+</LinearLayout>

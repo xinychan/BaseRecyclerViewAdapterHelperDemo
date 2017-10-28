@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ubpost.baserecyclerviewadapterhelperdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Btn01Activity">
+        </activity>
+        <activity android:name=".activity.Btn02Activity">
+        </activity>
+        <activity android:name=".activity.Btn03Activity">
+        </activity>
+        <activity android:name=".activity.Btn04Activity">
+        </activity>
+        <activity android:name=".activity.Btn05Activity">
+        </activity>
+        <activity android:name=".activity.Btn06Activity">
+        </activity>
+        <activity android:name=".activity.Btn07Activity">
+        </activity>
+        <activity android:name=".activity.Btn08Activity">
+        </activity>
+        <activity android:name=".activity.Btn09Activity">
+        </activity>
+        <activity android:name=".activity.Btn10Activity">
+        </activity>
+        <activity android:name=".activity.Btn11Activity">
+        </activity>
+        <activity android:name=".activity.Btn12Activity">
+        </activity>
+    </application>
+</manifest>
